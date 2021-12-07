@@ -1,0 +1,53 @@
+body{
+    padding-top: 30px;
+}
+
+#urlap{
+    padding-top: 50px;
+    margin: 0 auto 0 auto;
+    text-align: center;
+}
+
+#hallista{
+    margin-top: 20px;
+    border: solid red 3px;
+    border-radius: 25px;
+}
+
+#myfishTable{
+    width: 600px;
+    margin: 15px auto 0 auto;
+    text-align: center;
+}
+
+#myfishTable td{
+    border-bottom: solid blue 1px;
+}
+
+#myfishTable th{
+    border-bottom: solid rgb(18, 15, 175) 3px;
+}
+
+h1{
+    text-align:center;
+    color:red;
+}
+
+h2{
+    text-align: center;
+    color: green;
+}
+.hibas{
+    background-color: lightsalmon;
+    text-align: center;
+    padding:80px 10px 80px 10px;
+    
+}
+#hibagomb{
+    margin-top: 20px;
+    border: solid red 3px;
+    border-radius: 25px;
+    text-transform: uppercase;
+    background-color: aquamarine;
+}
+

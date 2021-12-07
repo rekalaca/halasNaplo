@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <link href="fish.css" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+      
+    <title>Fogási napló</title>
+</head>
+
+<body>
+<h1>Fogási napló</h1>
+<div class="container">
+<div id="urlap">
+    <form id="newFish">
+        <label>A hal fajtája: <input type="text" id="fajta" name="fajta" class="form-control" required></label>
+        <label>A hal tömege: <input type="number" id="tomeg" name="tomeg" class="form-control" required></label>
+        <label>A kifogás dátuma: <input type="text" id="datum" name="datum" class="form-control" required></label>
+        <button type="submit" class="btn btn-primary">Új hal bevitele</button>
+    </form>
+    <button id="hallista" class="btn btn-primary">Az eddig kifogott halak listája ITT !</button>
+</div>
+<div id="fogasok"></div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="/halak.js"></script>
+</body>
+
+</html>
